@@ -1,0 +1,21 @@
+.Main {
+  position: relative;
+  height: 100vh;
+}
+
+.Sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 18rem;
+  height: 100%;
+}
+
+.Container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: calc(100vw - 18rem);
+  height: 100%;
+  /* background-color: pink; */
+}

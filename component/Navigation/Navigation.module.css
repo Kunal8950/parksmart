@@ -1,0 +1,73 @@
+.Navigation {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: orange; */
+  margin: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.Right {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.Left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Left > div {
+  margin-right: 1rem;
+}
+
+.Location {
+  display: flex;
+  align-items: center;
+}
+
+.Location img {
+  padding-right: 5px;
+}
+.Notification {
+  display: flex;
+  align-items: center;
+}
+
+.Notification img {
+  padding-right: 5px;
+}
+
+.Notification span {
+  font-size: 12px;
+  background-color: red;
+  padding: 2px 6px;
+  color: white;
+  border-radius: 10px;
+}
+
+.Profile {
+  /* display: flex;
+	align-items: center; */
+}
+
+.Profile img {
+  padding-right: 5px;
+}
+
+.Profile {
+  display: flex;
+  align-items: center;
+}
+
+.ProfileName div {
+  font-size: 12px;
+}
+
+.ProfileName div:first-of-type {
+  font-weight: 500;
+}
+
+.ProfileName div:last-of-type {
+	color: #666;
+}
